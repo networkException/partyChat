@@ -1,0 +1,12 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "de.nwex.partychat.mixin.entity",
+    "compatibilityLevel": "JAVA_8",
+    "client": [
+        "MixinClientPlayerEntity"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

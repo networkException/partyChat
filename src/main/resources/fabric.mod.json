@@ -19,7 +19,9 @@
         ]
     },
     "mixins": [
-        "mixin.net.json"
+        "mixin.net.json",
+        "mixin.render.json",
+        "mixin.entity.json"
     ],
     "depends": {
         "fabricloader": ">=0.7.4",

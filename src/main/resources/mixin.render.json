@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "de.nwex.partychat.mixin.render",
+    "compatibilityLevel": "JAVA_8",
+    "client": [
+        "MixinChatHud",
+        "MixinCommandSuggestor",
+        "MixinTextFieldWidget"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
