@@ -12,7 +12,7 @@ import net.minecraft.util.Formatting;
 public class ChatBuilder {
 
     public static Formatting BASE = Formatting.GRAY;
-    public static Formatting ACCENT = Formatting.GOLD;
+    public static Formatting ACCENT = Formatting.AQUA;
     public static Formatting HIGHLIGHT = Formatting.WHITE;
     public static Formatting DARK = Formatting.DARK_GRAY;
     public static Formatting WARN = Formatting.YELLOW;

@@ -18,7 +18,7 @@ public class Chat {
     }
 
     public static void print(String prefix, MutableText... texts) {
-        toChat(dark("["), accent("networkTools"), dark("] "), base(prefix), accent(" > "), ChatBuilder.chain(texts));
+        toChat(dark("["), accent("partyChat"), dark("] "), base(prefix), accent(" > "), ChatBuilder.chain(texts));
     }
 
     public static void print(MutableText... texts) {
@@ -26,7 +26,7 @@ public class Chat {
     }
 
     public static void announce(String prefix, MutableText... texts) {
-        toActionBar(dark("["), accent("networkTools"), dark("] "), base(prefix), accent(" > "), ChatBuilder.chain(texts));
+        toActionBar(dark("["), accent("partyChat"), dark("] "), base(prefix), accent(" > "), ChatBuilder.chain(texts));
     }
 
     public static void announce(MutableText... texts) {
@@ -34,7 +34,7 @@ public class Chat {
     }
 
     public static void warn(String prefix, MutableText... texts) {
-        toChat(dark("["), accent("networkTools"), dark("] "), ChatBuilder.warn(prefix), accent(" > "),
+        toChat(dark("["), accent("partyChat"), dark("] "), ChatBuilder.warn(prefix), accent(" > "),
             ChatBuilder.chain(texts));
     }
 
@@ -43,7 +43,7 @@ public class Chat {
     }
 
     public static void error(String prefix, MutableText... texts) {
-        toChat(dark("["), accent("networkTools"), dark("] "), ChatBuilder.error(prefix), accent(" > "),
+        toChat(dark("["), accent("partyChat"), dark("] "), ChatBuilder.error(prefix), accent(" > "),
             ChatBuilder.chain(texts));
     }
 
